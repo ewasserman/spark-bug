@@ -1,0 +1,24 @@
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+*.class
+*.log
+
+# sbt
+target/
+lib_managed/
+src_managed/
+project/boot/
+.history
+.cache
+.lib/
+dist/*
+project/plugins/project
+
+#
+.idea/
+
+secret.properties
+
+output/
+out/
