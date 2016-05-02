@@ -1,4 +1,4 @@
-# SPARK-15070 Data corruption when using Dataset.groupBy[K : Encoder](func: T => K) when data loaded from JSON file.
+# SPARK-15070 Data corruption when using Dataset.groupBy\[K : Encoder\](func: T => K) when data loaded from JSON file.
 
 Reported as: https://issues.apache.org/jira/browse/SPARK-15070
 
@@ -16,6 +16,7 @@ On this data:
     {"m":"POST","elapsed_time":0.123456789012345678,"source_time":"abcdefghijk"}
 
 Expected Output:
+
     +-----------+-------------------+
     |_1         |_2                 |
     +-----------+-------------------+
@@ -23,6 +24,7 @@ Expected Output:
     +-----------|-------------------+
 
 Observed Output:
+
     +-----------+-------------------+
     |_1         |_2                 |
     +-----------+-------------------+
