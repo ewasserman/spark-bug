@@ -1,4 +1,4 @@
-package c.a
+package bug
 
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.SQLContext
